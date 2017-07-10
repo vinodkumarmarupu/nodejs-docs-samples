@@ -19,10 +19,10 @@
     "test": "npm run unit-test && npm run system-test"
   },
   "dependencies": {
-    "@google-cloud/logging": "1.0.2",
+    "@google-cloud/logging": "1.0.3",
     "@google-cloud/logging-bunyan": "0.4.2",
     "@google-cloud/logging-winston": "0.4.1",
-    "@google-cloud/storage": "1.1.1",
+    "@google-cloud/storage": "1.2.0",
     "bunyan": "1.8.10",
     "express": "4.15.3",
     "fluent-logger": "2.4.0",
@@ -31,9 +31,9 @@
   },
   "devDependencies": {
     "@google-cloud/nodejs-repo-tools": "1.4.15",
-    "ava": "0.19.1",
+    "ava": "0.20.0",
     "proxyquire": "1.8.0",
-    "sinon": "2.3.5",
+    "sinon": "2.3.7",
     "supertest": "3.0.0",
     "uuid": "3.1.0"
   },
